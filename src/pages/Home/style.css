@@ -1,0 +1,89 @@
+.conteudo {
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    height: 85vh;
+    position: absolute;
+    margin-top: 4vh;
+    bottom: center;
+    left: -250px;
+    opacity: 10%;
+}
+
+.info {
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+input {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    width: 80%;
+    margin-right: 12px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    color: #FFF;
+}
+
+button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;
+    background: #203338;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+}
+
+.perfil {
+    display: flex;
+    margin: 40px 0px;
+    font-family: 'Kanit', 'sans-serif';
+    font-weight: 400;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #E5E5E5;
+    margin-right: 32px;
+
+}
+
+.perfil h3 {
+    color: #999999;
+    font-size: 30px;
+    margin: 0;
+}
+
+.perfil span {
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.perfil p {
+    color: #999999;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Kanit', 'sans-serif';
+    font-weight: 400;
+    color: #FFF;
+}
